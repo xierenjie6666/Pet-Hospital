@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.pethospitalapp">
+
+    <!-- 网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+
+    
+    android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
+
+    android:usesCleartextTraffic="true"
+    tools:targetApi="31">
+
+    <!-- 主Activity -->
+    <activity
+        android:name=".MainActivity"
+        android:exported="true"
+        android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
+    <!-- 登录Activity -->
+    <activity
+        android:name=".LoginActivity"
+        android:exported="false"
+        android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+
+    <!-- 注册Activity -->
+    <activity
+        android:name=".RegisterActivity"
+        android:exported="false"
+        android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+
+    <!-- 用户仪表板 -->
+    <activity
+        android:name=".UserDashboardActivity"
+        android:exported="false"
+        android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+
+    <!-- 管理员仪表板 -->
+    <activity
+        android:name=".AdminDashboardActivity"
+        android:exported="false"
+        android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+
+    <!-- 预约相关页面 -->
+    <activity
+        android:name=".AppointmentActivity"
+        android:exported="false"
+        android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+
+    <activity
+        android:name=".AppointmentDetailActivity"
+        android:exported="false"
+        android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+
+    <activity
+        android:name=".SelectDoctorActivity"
+        android:exported="false"
+        android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+
+    <activity
+        android:name=".MyAppointmentsActivity"
+        android:exported="false"
+        android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+
+    <activity
+        android:name=".AppointmentManagementActivity"
+        android:exported="false"
+        android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+
+    <activity
+        android:name=".PendingAppointmentsActivity"
+        android:exported="false"
+        android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+
+    <!-- ✅ 用户管理页面（修复完成） -->
+    <activity
+        android:name=".UserManagementActivity"
+        android:exported="false"
+        android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+
+    <!-- 测试页面 -->
+    <activity
+        android:name=".SimpleTestActivity"
+        android:exported="false"
+        android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+
+    <activity
+        android:name=".TestActivity"
+        android:exported="false"
+        android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+        <activity android:name=".StatisticsActivity" />
+        <activity
+            android:name=".AdminAnnouncementActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+        <activity
+            android:name=".DoctorManagementActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+
+</application>
+
+    </manifest>

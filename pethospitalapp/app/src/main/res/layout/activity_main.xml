@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg_gradient_primary">
+
+    <ImageView
+        android:id="@+id/splashLogo"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/ic_pet_hospital"
+        android:layout_marginBottom="32dp"
+        android:elevation="8dp" />
+
+    <TextView
+        android:id="@+id/splashTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="28sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:letterSpacing="0.05"
+        android:layout_marginBottom="12dp"
+        android:elevation="4dp" />
+
+    <TextView
+        android:id="@+id/splashSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="关爱宠物 · 守护健康"
+        android:textSize="14sp"
+        android:textColor="#B3FFFFFF"
+        android:letterSpacing="0.1"
+        android:layout_marginBottom="48dp" />
+
+    <ProgressBar
+        android:id="@+id/splashProgress"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:indeterminateTint="@color/white"
+        android:alpha="0.7" />
+
+</LinearLayout>

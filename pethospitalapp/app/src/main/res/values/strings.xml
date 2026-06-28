@@ -1,0 +1,56 @@
+<resources>
+    <!-- Common -->
+    <string name="app_name">宠物医院预约</string>
+    <string name="welcome">欢迎使用宠物医院预约平台</string>
+    <string name="loading">加载中...</string>
+
+    <!-- Login -->
+    <string name="login_title">用户登录</string>
+    <string name="admin_login_title">管理员登录</string>
+    <string name="email_hint">请输入邮箱</string>
+    <string name="password_hint">请输入密码</string>
+    <string name="login_button">登录</string>
+    <string name="register_button">注册新账号</string>
+    <string name="switch_to_admin">切换到管理员登录</string>
+    <string name="switch_to_user">切换到用户登录</string>
+
+    <!-- Register -->
+    <string name="register_title">用户注册</string>
+    <string name="name_hint">请输入姓名</string>
+    <string name="phone_hint">请输入手机号</string>
+    <string name="confirm_password_hint">请确认密码</string>
+    <string name="register_submit">注册</string>
+    <string name="back_to_login">返回登录</string>
+
+    <!-- User Dashboard -->
+    <string name="user_welcome">欢迎回来，%s</string>
+    <string name="new_appointment">新建预约</string>
+    <string name="my_appointments">我的预约</string>
+    <string name="logout">退出登录</string>
+
+    <!-- Admin Dashboard -->
+    <string name="admin_welcome">管理员面板</string>
+    <string name="manage_appointments">管理预约</string>
+    <string name="statistics">统计信息</string>
+
+    <!-- Appointment -->
+    <string name="appointment_title">宠物预约</string>
+    <string name="pet_name">宠物名称</string>
+    <string name="pet_type">宠物类型</string>
+    <string name="appointment_date">预约日期</string>
+    <string name="appointment_time">预约时间</string>
+    <string name="service_type">服务类型</string>
+    <string name="symptoms">症状描述</string>
+    <string name="submit_appointment">提交预约</string>
+    <string name="cancel_appointment">取消预约</string>
+
+    <!-- Services -->
+    <string-array name="service_types">
+        <item>常规检查</item>
+        <item>疫苗接种</item>
+        <item>绝育手术</item>
+        <item>牙齿清洁</item>
+        <item>急诊</item>
+        <item>其他</item>
+    </string-array>
+</resources>
