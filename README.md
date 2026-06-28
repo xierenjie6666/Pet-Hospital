@@ -250,6 +250,10 @@ Web管理端将在 `http://localhost:5173` 启动
 ![Web预约管理](screenshots/web-appointments.png)
 *预约记录管理*
 
+#### 公告管理页面
+![Web公告管理](screenshots/web-announcement.png)
+*公告信息管理*
+
 ---
 
 ### Android用户端
@@ -301,6 +305,10 @@ Web管理端将在 `http://localhost:5173` 启动
 #### 统计报表
 ![Android统计报表](screenshots/android-statistics.png)
 *数据统计展示*
+
+#### 公告管理
+![Android公告管理](screenshots/android-announcement.png)
+*公告信息管理*
 
 ---
 
@@ -593,4 +601,3 @@ Response:
 
 ---
 
-**注：请将实际运行截图保存到项目的 `screenshots` 文件夹中，并替换上述截图路径。**
