@@ -266,32 +266,6 @@ const BASE_URL = 'http://localhost:8080'
 | Android截图 | 10分钟 | 用户端和管理端 |
 | **总计** | **36分钟** | 完整启动和截图 |
 
----
-
-## 📝 截图保存位置
-
-所有截图保存到:
-```
-d:/pet_hospital/screenshots/
-```
-
-截图文件命名规范:
-```
-api-register.png          # 用户注册API
-api-login.png             # 用户登录API
-api-appointment.png       # 创建预约API
-
-web-login.png             # Web登录界面
-web-dashboard.png         # Web仪表盘
-web-users.png             # Web用户管理
-web-doctors.png           # Web医生管理
-web-appointments.png      # Web预约管理
-
-android-user-login.png    # Android用户登录
-android-user-home.png     # Android用户主页
-android-appointment.png   # Android预约界面
-android-admin-home.png    # Android管理员主页
-```
 
 ---
 
